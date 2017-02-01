@@ -1,0 +1,57 @@
+<% wrap_layout :layout do %>
+  <%= partial "includes/navbar" %>
+
+  <div class="main">
+    <div class="sheet">
+      <h1><%= current_page.title %></h1>
+      <div class="links">
+        <% if current_page.homepage != "N/A" %>
+          <a href="<%= current_page.homepage %>" target="_blank"><i class="fa fa-home"></i> Homepage</a>
+          <span class="separator">|</span>
+        <% end %>
+        <% if current_page.demo != "N/A" %>
+          <a href="<%= current_page.demo %>" target="_blank"><i class="fa fa-home"></i> Demo</a>
+          <span class="separator">|</span>
+        <% end %>
+        <a href="https://github.com/<%= current_page.repo %>" target="_blank"><i class="fa fa-github"></i> GitHub</a>
+      </div>
+
+
+      <div class="text">
+
+        <%= yield %>
+
+
+      </div>
+      <div class="charts">
+        <div id="stars-chart" class="chart"></div>
+        <div id="forks-chart" class="chart"></div>
+        <div id="issues-chart" class="chart"></div>
+      </div>
+    </div>
+  </div>
+
+  <% content_for :scripts do %>
+  <script>
+    $(function() {
+      <% ['stars', 'forks', 'issues'].each do |type| %>
+      var chart_<%= type %> = {
+        label: "<%= type.capitalize %>",
+        data: <%= JSON.generate(current_page.week_history.map {|day| [day.timestamp * 1000, day.send(type)] }) %>
+      };
+      var options_<%= type %> = {
+        yaxis: {
+          tickDecimals: 0
+        },
+        xaxis: {
+          transform: function (v) { return v; },
+          mode: "time"
+        }
+      };
+      $.plot("#<%= type %>-chart", [chart_<%= type %>] , options_<%= type %>);
+      <% end %>
+    });
+
+  </script>
+  <% end %>
+<% end %>
