@@ -69,7 +69,10 @@ module Github
               "open_issues" => data["open_issues"],
               "watchers" => data["watchers"],
               "network_count" => data["network_count"],
-              "subscribers_count" => data["subscribers_count"]
+              "subscribers_count" => data["subscribers_count"],
+              "created_at" => data["created_at"],
+              "updated_at" => data["updated_at"],
+              "pushed_at" => data["pushed_at"]
             }
             cache["updated"] = true
             store_cache!

@@ -10,6 +10,18 @@ module Github
       repo_data[:stargazers_count]
     end
 
+    def created_at
+      repo_data[:created_at]
+    end
+
+    def updated_at
+      repo_data[:updated_at]
+    end
+
+    def pushed_at
+      repo_data[:pushed_at]
+    end
+
     def forks
       repo_data[:forks]
     end

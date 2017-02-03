@@ -276,6 +276,10 @@ pre {
   margin: 2px 0 1px;
   -webkit-font-smoothing: antialiased;
 }
+.datetime-stat {
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
 .trend.up {
   color: #31BB47;
 }
@@ -290,7 +294,6 @@ pre {
   padding: 6px;
   line-height: 1.4;
 }
-
 .sheet:after {
   content: "";
   display: table;

@@ -1,6 +1,7 @@
 //= require "jquery"
 //= require "jquery.flot"
 //= require "jquery.flot.time"
+//= require "jquery.timeago"
 //= require "jquery.isotope"
 //= require "jquery.pin"
 //= require "jquery.matchHeight"
@@ -20,6 +21,10 @@ $(function() {
   $(window).on('resize', function(){
     $('.navbar').attr('style', '').removeData('pin');
     $('.navbar').pin();
+  });
+
+  $(document).ready(function() {
+    $("time.timeago").timeago();
   });
 
   var sortAscending = {title: true};
