@@ -1,7 +1,6 @@
 ---
 title: Zen Kommerce
 repo: inklabs/kommerce-core
-homepage: http://inklabs.github.io/kommerce/
 demo: N/A
 language: PHP
 framework: Framework-agnostic
