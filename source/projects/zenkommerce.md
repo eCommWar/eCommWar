@@ -4,7 +4,7 @@ repo: inklabs/kommerce-core
 homepage: http://inklabs.github.io/kommerce/
 demo: N/A
 language: PHP
-framework: Kohana
+framework: Framework-agnostic
 license: Apache-2.0
 description: PHP shopping cart core platform.
 ---
