@@ -44,7 +44,7 @@ $(function() {
 
   $("select[name='filter']").change(function(e) {
     console.log("Filter by: %o", $(this).val());
-    $(".projects").isotope({filter: $(this).val().replace(/^\.lang-\./, '.lang-')});
+    $(".projects").isotope({filter: $(this).val().replace(/(\#)/g, '\\$1')});
   });
 
   $("select[name='sort']").change(function(e) {
