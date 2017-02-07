@@ -1,6 +1,6 @@
 ---
 title: Kudos
-repo: kkudosagency/kudos-php
+repo: kudosagency/kudos-php
 homepage: https://kudos.store
 demo: https://basic.kudos.store
 language: PHP
