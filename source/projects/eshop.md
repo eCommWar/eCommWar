@@ -1,8 +1,8 @@
 ---
 title: Eshop
 repo: totaljs/eshop
-homepage: http://www.totaljs.com/eshop/
-demo: https://eshop.totaljs.com/
+homepage: http://www.totaljs.com/eshop
+demo: https://eshop.totaljs.com
 language: JavaScript
 framework: Total.js
 license: MIT

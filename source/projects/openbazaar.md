@@ -1,7 +1,7 @@
 ---
 title: OpenBazaar
 repo: OpenBazaar/OpenBazaar-Server
-homepage: https://openbazaar.org/
+homepage: https://openbazaar.org
 demo: N/A
 language: Python
 framework: N/A

@@ -2,7 +2,7 @@
 title: YesCart
 repo: inspire-software/yes-cart
 homepage: http://www.yes-cart.org
-demo: http://demo.yes-cart.org/yes-shop/
+demo: http://demo.yes-cart.org/yes-shop
 language: Java
 framework: Spring
 license: OSL-3.0
