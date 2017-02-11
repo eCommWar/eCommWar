@@ -1,5 +1,5 @@
 ---
-title: NectarCommerce
+title: Nectar Commerce
 repo: vinsol/nectarcommerce
 homepage: N/A
 demo: N/A

@@ -1,5 +1,5 @@
 ---
-title: LaravelShoppingCart
+title: Laravel ShoppingCart
 repo: Crinsane/LaravelShoppingcart
 homepage: N/A
 demo: N/A

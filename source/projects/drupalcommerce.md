@@ -1,5 +1,5 @@
 ---
-title: DrupalCommerce
+title: Drupal Commerce
 repo: drupalcommerce/commerce
 homepage: https://drupalcommerce.org
 demo: http://www.commercekickstart.com

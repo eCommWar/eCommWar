@@ -1,5 +1,5 @@
 ---
-title: VirtoCommerce
+title: Virto Commerce
 repo: VirtoCommerce/vc-platform
 homepage: http://virtocommerce.com
 demo: virtocommerce.com/try-now/online-demo
