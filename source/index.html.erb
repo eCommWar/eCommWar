@@ -12,7 +12,7 @@ title: Top Open-Source E-Commerce Platforms
           data-title="<%= project.title %>"
           data-language="<%= project.language.downcase.gsub(/\s/, '-') %>">
         <div class="card">
-          <h4 class="title"><a href="<%= project.url %>"><%= project.title %></a></h4>
+          <h4 class="title"><a href="<%= project.url %>" title="<%= project.title %>"><%= project.title %></a></h4>
           <h6 class="url">
             <% if project.homepage != "N/A" %>
               <a href="<%= project.homepage %>" target="_blank"><i class="fa fa-home"></i> Homepage </a>
