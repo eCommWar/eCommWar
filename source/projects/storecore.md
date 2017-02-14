@@ -1,7 +1,7 @@
 ---
 title: Storecore
 repo: storecore/core
-homepage: http://storecore.io/
+homepage: http://storecore.io
 demo: N/A
 language: PHP
 framework: N/A

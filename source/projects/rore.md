@@ -2,7 +2,7 @@
 title: RoR eCommerce
 repo: drhenner/ror_ecommerce
 homepage: http://www.ror-e.com
-demo: https://ror-e.herokuapp.com/
+demo: https://ror-e.herokuapp.com
 language: Ruby
 framework: Ruby on Rails
 license: MIT

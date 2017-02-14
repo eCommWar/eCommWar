@@ -1,5 +1,5 @@
 ---
-title: SmartStoreNET
+title: SmartStore .NET
 repo: smartstoreag/SmartStoreNET
 homepage: https://www.smartstore.com/en/net
 demo: https://www.smartstore.com/en/net#section-demo

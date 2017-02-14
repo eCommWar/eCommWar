@@ -1,5 +1,5 @@
 ---
-title: OroCommerce
+title: Oro Commerce
 repo: orocommerce/orocommerce-application
 homepage: http:///www.orocommerce.com
 demo: https://www.orocommerce.com/demo

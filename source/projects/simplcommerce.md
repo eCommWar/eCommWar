@@ -1,5 +1,5 @@
 ---
-title: SimplCommerce
+title: Simpl Commerce
 repo: simplcommerce/SimplCommerce
 homepage: http://www.simplcommerce.com
 demo: http://demo.simplcommerce.com

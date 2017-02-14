@@ -1,7 +1,7 @@
 ---
 title: Piggybak
 repo: piggybak/piggybak
-homepage: http://www.piggybak.org/
+homepage: http://www.piggybak.org
 demo: http://www.piggybak.org/demo_details.html
 language: Ruby
 framework: Ruby on Rails
