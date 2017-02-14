@@ -1,10 +1,10 @@
 ---
 title: Zen Kommerce
 repo: inklabs/kommerce-core
-homepage: http://inklabs.github.io/kommerce
+homepage: N/A
 demo: N/A
 language: PHP
-framework: Kohana
+framework: Framework-agnostic
 license: Apache-2.0
 description: PHP shopping cart core platform.
 ---

@@ -49,14 +49,14 @@ title: Top Open-Source E-Commerce Platforms
             </li>
           </ul>
           <dl>
-            <dt style="width: 46%;">First Release:</dt>
-            <dd style="width: 54%;" class="datetime-stat"><time class="timeago" datetime="<%= project.created_at %>"><%= project.created_at.to_datetime.strftime("%A, %B %d, %Y %T") %></time></dd>
+            <dt style="width: 46%; min-height: 3em;">First Release:</dt>
+            <dd style="width: 54%; min-height: 3em;" class="datetime-stat"><time style="display: none;" class="timeago" datetime="<%= project.created_at %>"><%= project.created_at.to_datetime.strftime("%A, %B %d, %Y %T") %></time></dd>
 
-            <dt style="width: 46%;">Last activity:</dt>
-            <dd style="width: 54%;" class="datetime-stat"><time class="timeago" datetime="<%= project.updated_at %>"><%= project.updated_at.to_datetime.strftime("%A, %B %d, %Y %T") %></time></dd>
+            <dt style="width: 46%; min-height: 3em;">Last activity:</dt>
+            <dd style="width: 54%; min-height: 3em;" class="datetime-stat"><time style="display: none;" class="timeago" datetime="<%= project.updated_at %>"><%= project.updated_at.to_datetime.strftime("%A, %B %d, %Y %T") %></time></dd>
 
-            <dt style="width: 46%;">Last commit:</dt>
-            <dd style="width: 54%;" class="datetime-stat"><time class="timeago" datetime="<%= project.pushed_at %>"><%= project.pushed_at.to_datetime.strftime("%A, %B %d, %Y %T") %></time></dd>
+            <dt style="width: 46%; min-height: 3em;">Last commit:</dt>
+            <dd style="width: 54%; min-height: 3em;" class="datetime-stat"><time style="display: none;" class="timeago" datetime="<%= project.pushed_at %>"><%= project.pushed_at.to_datetime.strftime("%A, %B %d, %Y %T") %></time></dd>
           </dl>
           <div style="margin: 16px -18px; border-bottom: 1px solid #eee;"></div>
           <div class="description"><%= project.description %></div>

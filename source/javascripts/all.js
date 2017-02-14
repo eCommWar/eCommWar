@@ -25,6 +25,14 @@ $(function() {
 
   $(document).ready(function() {
     $("time.timeago").timeago();
+    $("time.timeago").show();
+
+    var langMatches = location.href.match(/[\?&]lang=([^&#].*)/);
+    if (langMatches && langMatches[1]) {
+      var lang = ".lang-" + langMatches[1].toLowerCase();
+      $("select[name='filter']").val(lang);
+      $(".projects").isotope({filter: lang.replace(/(\#)/g, '\\$1')});
+    }
   });
 
   var sortAscending = {title: true};

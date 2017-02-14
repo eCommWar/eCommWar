@@ -1,5 +1,5 @@
 ---
-title: WellCommerce
+title: Well Commerce
 repo: WellCommerce/WellCommerce
 homepage: http://wellcommerce.org
 demo: http://demo.wellcommerce.org

@@ -1,6 +1,6 @@
 ---
 title: Mayocat
-repo: mayocat/mayocat-shop
+repo: jvelo/mayocat-shop
 homepage: http://www.mayocat.org
 demo: N/A
 language: Java

@@ -1,5 +1,5 @@
 ---
-title: WooCommerce
+title: Woo Commerce
 repo: woocommerce/woocommerce
 homepage: http://www.woocommerce.com
 demo: N/A
