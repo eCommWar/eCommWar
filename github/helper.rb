@@ -9,5 +9,9 @@ module Github
     def languages
       github.languages
     end
+
+    def frameworks
+      github.frameworks
+    end
   end
 end

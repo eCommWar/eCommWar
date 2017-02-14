@@ -8,6 +8,7 @@ module Github
       @extension = extension
       @projects = []
       @languages = {}
+      @frameworks = {}
     end
 
     def projects
@@ -18,6 +19,10 @@ module Github
 
     def languages
       @languages.keys.sort.uniq { |language| language.downcase }
+    end
+
+    def frameworks
+      @frameworks.keys.sort.uniq { |framework| framework.downcase }
     end
 
     def manipulate_resource_list(resources)
@@ -33,6 +38,8 @@ module Github
           @projects << resource
           @languages[resource.language] ||= 0
           @languages[resource.language] += 1
+          @frameworks[resource.framework] ||= 0
+          @frameworks[resource.framework] += 1
         end
       end
 

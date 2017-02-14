@@ -5,7 +5,7 @@ title: Top Open-Source E-Commerce Platforms
 <div class="main landing">
   <ul class="projects">
     <% projects.each_with_index do |project, index| %>
-      <li class="project lang-<%= project.language.downcase.gsub(/\s/, '-').gsub('.', '') %>"
+      <li class="project lang-<%= project.language.downcase.gsub(/\s/, '-').gsub('.', '') %> framework-<%= project.framework.downcase.gsub(/\s/, '-').gsub('.', '') %>"
           data-stars="<%= project.stars %>"
           data-forks="<%= project.forks %>"
           data-issues="<%= project.issues %>"

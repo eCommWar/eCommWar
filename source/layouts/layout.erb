@@ -10,7 +10,7 @@
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title ? current_page.data.title + " - eCommWar" : "eCommWar - Open Source E-Commerce Platforms" %></title>
 
-    <meta name="description" content="eCommWar is a leaderboard of the top open-source e-commerce platforms. Promoting the bests for building reliable stores." />
+    <meta name="description" content="<%= current_page.data.description ? current_page.data.description : 'eCommWar is a leaderboard of the top open-source e-commerce platforms. Promoting the bests for building reliable stores.' %>" />
 
     <!-- Twitter Card data -->
     <meta name="twitter:card" content="summary_large_image">
