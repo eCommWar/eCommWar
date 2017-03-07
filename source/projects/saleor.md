@@ -2,7 +2,7 @@
 title: Saleor
 repo: mirumee/saleor
 homepage: http://getsaleor.com
-demo: N/A
+demo: https://demo.getsaleor.com
 language: Python
 framework: Django
 license: BSD-3-Clause
