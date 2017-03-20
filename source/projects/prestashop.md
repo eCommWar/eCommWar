@@ -2,7 +2,7 @@
 title: PrestaShop
 repo: PrestaShop/PrestaShop
 homepage: http://www.prestashop.com
-demo: http://demo.prestashop.com/en
+demo: http://demo.prestashop.com
 language: PHP
 framework: Symfony
 license: OSL-3.0
