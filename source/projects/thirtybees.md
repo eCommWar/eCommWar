@@ -1,8 +1,8 @@
 ---
-title: ThirtyBees
+title: thirty bees
 repo: thirtybees/ThirtyBees
 homepage: https://thirtybees.com
-demo: N/A
+demo: https://front.thirtybees.com/
 language: PHP
 framework: Symfony
 license: OSL-3.0
