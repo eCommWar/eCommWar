@@ -4,7 +4,7 @@ repo: thirtybees/ThirtyBees
 homepage: https://thirtybees.com
 demo: https://front.thirtybees.com/
 language: PHP
-framework: Symfony
+framework: N/A
 license: OSL-3.0
 description: thirty bees - e-commerce that works for you.
 ---
