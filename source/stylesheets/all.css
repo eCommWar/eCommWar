@@ -622,3 +622,40 @@ pre {
   .project:nth-of-type(n) { clear: none; }
   .project:nth-of-type(4n+1) { clear: both; }
 }
+
+
+.carbon-ad {
+  display: block;
+  float: right;
+  font-size: 0;
+  margin-top: 10px;
+  max-width: 300px;
+}
+.carbon-ad #carbonads {
+  border-radius: 3px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  display: block;
+  margin-bottom: 10px;
+  overflow: hidden;
+  padding-right: 10px;
+}
+.carbon-ad .carbon-img {
+  float: left;
+  margin-right: 10px;
+}
+.carbon-ad .carbon-img img {
+  vertical-align: bottom;
+}
+.carbon-ad .carbon-text {
+  font-size: 12px;
+  position: relative;
+  text-decoration: none;
+  top: 5px;
+}
+.carbon-ad .carbon-poweredby {
+  color: #fff;
+  display: block;
+  font-size: 8px;
+  margin-top: 13px;
+  text-decoration: none;
+}
