@@ -508,7 +508,7 @@ pre {
   left: 0;
   bottom: 0;
   right: 0;
-  margin-bottom: 4px;
+  margin-bottom: 24px;
 }
 
 .share-button .entypo-twitter {
@@ -628,8 +628,8 @@ pre {
 .carbon-ad {
   display: block;
   font-size: 0;
-  margin-top: 10px;
-  margin-left: 10px;
+  margin-top: 5px;
+  margin-left: 5px;
   max-width: 300px;
   position: absolute;
   top: 0;
