@@ -104,7 +104,9 @@ pre {
   padding: 29px 0;
 }
 .hero h1 {
-  margin: 31px 0 0;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
 }
 .hero h2 {
   margin-top: 0;
@@ -506,7 +508,7 @@ pre {
   left: 0;
   bottom: 0;
   right: 0;
-  margin-bottom: 24px;
+  margin-bottom: 4px;
 }
 
 .share-button .entypo-twitter {
@@ -623,13 +625,15 @@ pre {
   .project:nth-of-type(4n+1) { clear: both; }
 }
 
-
 .carbon-ad {
   display: block;
-  float: right;
   font-size: 0;
   margin-top: 10px;
+  margin-left: 10px;
   max-width: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .carbon-ad #carbonads {
   border-radius: 3px;
@@ -648,6 +652,7 @@ pre {
 }
 .carbon-ad .carbon-text {
   font-size: 12px;
+  color: #fff;
   position: relative;
   text-decoration: none;
   top: 5px;
