@@ -1,7 +1,7 @@
 ---
 title: Spree
 repo: spree/spree
-homepage: http://spreecommerce.com
+homepage: https://spreecommerce.org/
 demo: N/A
 language: Ruby
 framework: Ruby on Rails
