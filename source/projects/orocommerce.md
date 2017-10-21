@@ -1,7 +1,7 @@
 ---
 title: Oro Commerce
-repo: orocommerce/orocommerce-application
-homepage: http://www.orocommerce.com
+repo: oroinc/orocommerce-application
+homepage: https://www.orocommerce.com
 demo: https://www.orocommerce.com/demo
 language: PHP
 framework: Symfony
