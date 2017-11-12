@@ -1,6 +1,6 @@
 ---
 title: CoreStore
-repo: corestoreio/csfw
+repo: corestoreio/pkg
 homepage: http://corestore.io
 demo: N/A
 language: Go
