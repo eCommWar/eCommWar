@@ -1,6 +1,6 @@
 ---
 title: AvoRed
-repo: https://github.com/avored/laravel-ecommerce
+repo: avored/laravel-ecommerce
 homepage: https://www.avored.com/
 demo: http://demo.avored.com/
 language: PHP
