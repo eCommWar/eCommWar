@@ -1,8 +1,8 @@
 ---
 title: laracom
-repo: jsdecena/laracom
+repo: Laracommerce/laracom
 homepage: https://laracom.net
-demo: https://shop.jsdecena.me
+demo: https://shop.laracom.net/
 language: PHP
 framework: Laravel
 lincense: MIT
