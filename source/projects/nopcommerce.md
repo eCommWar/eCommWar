@@ -9,5 +9,5 @@ license: GPL-3.0
 description: ASP.NET Core Open-source Ecommerce Shopping Cart Solution.
 ---
 
-nopCommerce is the open-source eCommerce solution. nopCommerce is available for free. 
+nopCommerce is a free open-source ecommerce, shopping cart, based on ASP.NET Core with a vast community and a market place full of new features, themes and plugins.
 It has everything you need to get started in selling physical and digital goods over the internet.
