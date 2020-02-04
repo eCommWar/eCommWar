@@ -1,8 +1,8 @@
 ---
 title: SmartStore .NET
-repo: smartstoreag/SmartStoreNET
-homepage: https://www.smartstore.com/en/net
-demo: https://www.smartstore.com/en/net#section-demo
+repo: smartstore/SmartStoreNET
+homepage: https://smartstore.com/de
+demo: https://smartstore.com/de/demo
 language: C#
 framework: ASP.NET
 license: GPL-3.0
