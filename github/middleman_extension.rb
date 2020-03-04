@@ -10,9 +10,7 @@ module Github
     end
 
     def after_configuration
-      app.github = RepoData.new(app, self)
-
-      app.sitemap.register_resource_list_manipulator(:projects, app.github, false)
+      app.sitemap.register_resource_list_manipulator(:projects, RepoData.new(app, self), false)
     end
   end
 end
