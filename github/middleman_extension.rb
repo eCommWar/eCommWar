@@ -3,15 +3,18 @@ require 'github/helper'
 
 module Github
   class MiddlemanExtension < Middleman::Extension
+    expose_to_application :github
     self.defined_helpers = [ Helper ]
 
     def initialize(app, options_hash={}, &block)
       super
     end
 
+    def github
+      RepoData.new(app, self)
+    end
+    
     def after_configuration
-      github = RepoData.new(app, self)
-      app.set :github, github
       app.sitemap.register_resource_list_manipulator(:projects, github, false)
     end
   end
