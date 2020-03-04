@@ -1,6 +1,6 @@
 ---
 title: Well Commerce
-repo: WellCommerce/WellCommerce
+repo: WellCommerce/StandardEdition
 homepage: http://wellcommerce.org
 demo: http://demo.wellcommerce.org
 language: PHP
@@ -9,4 +9,4 @@ license: MIT
 description: Handle your online business. Well!
 ---
 
-Modern e-commerce engine built on top of Symfony 3 full-stack framework 
+Modern e-commerce engine built on top of Symfony 3 full-stack framework

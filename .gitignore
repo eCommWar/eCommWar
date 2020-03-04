@@ -7,6 +7,9 @@
 # Ignore bundler config
 /.bundle
 
+# Ignore bundler local gems (vendor folder)
+/vendor
+
 # Ignore the build directory
 /build
 
@@ -18,3 +21,5 @@
 .DS_Store
 
 .github_token
+
+Gemfile.lock
