@@ -1,6 +1,6 @@
 ---
 title: Saleor
-repo: mirumee/saleor
+repo: saleor/saleor
 homepage: http://getsaleor.com
 demo: https://demo.getsaleor.com
 language: Python

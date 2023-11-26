@@ -1,6 +1,6 @@
 ---
 title: Easy Digital Downloads
-repo: easydigitaldownloads/easy-digital-downloads
+repo: awesomemotive/easy-digital-downloads
 homepage: https://easydigitaldownloads.com/
 demo: https://easydigitaldownloads.com/demo/
 language: PHP

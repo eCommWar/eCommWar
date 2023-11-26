@@ -6,6 +6,7 @@ set :images_dir, 'images'
 
 activate :github
 activate :syntax
+activate :sprockets
 
 helpers do
   def caret_icon(number)

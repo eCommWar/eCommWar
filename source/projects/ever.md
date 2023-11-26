@@ -1,6 +1,6 @@
 ---
 title: Ever
-repo: ever-co/ever
+repo: ever-co/ever-demand
 homepage: https://ever.dev
 demo: N/A
 language: JavaScript

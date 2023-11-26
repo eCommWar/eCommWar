@@ -1,6 +1,6 @@
 ---
 title: Dokan
-repo: weDevsOfficial/dokan
+repo: getdokan/dokan
 homepage: N/A
 demo: N/A
 language: PHP

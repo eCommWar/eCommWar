@@ -1,6 +1,6 @@
 ---
 title: SmartStore .NET
-repo: smartstore/SmartStoreNET
+repo: smartstore/Smartstore
 homepage: https://smartstore.com/de
 demo: https://smartstore.com/de/demo
 language: C#
