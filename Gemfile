@@ -14,6 +14,7 @@ gem "wdm", "~> 0.1", :platforms => [:mswin, :mingw]
 gem "middleman-syntax", "~> 3.3"
 gem "redcarpet", "~> 3.6"
 gem "haml", "< 6.0.0"
+gem "slim", "~> 5.2"
 
 # Windows does not come with time zone data
 gem "tzinfo-data", "~> 1.2023", platforms: [:mswin, :mingw]
