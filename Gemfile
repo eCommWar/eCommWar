@@ -17,6 +17,7 @@ gem "haml", "< 6.0.0"
 gem "slim", "~> 4.1"
 gem 'liquid', '~> 5.4'
 gem 'less', '~> 2.6'
+gem 'therubyracer', '~> 0.12.3'
 
 # Windows does not come with time zone data
 gem "tzinfo-data", "~> 1.2023", platforms: [:mswin, :mingw]
