@@ -99,7 +99,7 @@ module Github
     end
 
     def render(opts={}, locs={}, &block)
-      super(opts.merge(:layout => "project.erb"), locs, &block)
+      super(opts.merge(:layout => "project"), locs, &block)
     end
 
     def point_in_time(time, data)
